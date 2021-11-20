@@ -2,7 +2,7 @@
 
 import psutil , shutil
 
-def check_CPU_util(wait_interval):
+def check_CPU_Util(wait_interval):
 	
 	res = psutil.cpu_percent(wait_interval)
 	
